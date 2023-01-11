@@ -2,8 +2,8 @@ let day = document.getElementById("day")
 let hour = document.getElementById("hour")
 let minute = document.getElementById("minute")
 let second = document.getElementById("second")
-let futureDay = new Date(`Tues Feb 28 2023 23:06:44`)
-
+let getFutureDay = prompt( `Write Year Months And Date `)
+let futureDay =  new Date(getFutureDay)
 let timer = () => {
   setInterval(() => {
     let today = new Date()
