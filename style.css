@@ -1,0 +1,25 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+.btn{
+    width: 8rem;
+    height: 8rem;
+    text-align: center;
+    font-size: xx-large;
+    border: 2px solid;
+    border-radius: 1rem;
+}
+.box{
+  display: flex;
+  justify-content: center;
+}
+.btns{
+    display: flex;
+    flex-direction: column;
+    margin:1rem;
+}
+.label{
+  font-size: xx-large;
+  text-align: center;
+}
